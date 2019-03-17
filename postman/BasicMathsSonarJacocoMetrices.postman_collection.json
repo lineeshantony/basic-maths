@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "1c12da16-4f15-476d-8590-8f5e48e87d63",
+		"name": "BasicMathsSonarJacocoMetrices",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "BasicMathsSonarJacocoMetrices",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:9000/api/measures/component?metricKeys=ncloc,complexity,violations,coverage&component=basic-maths",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"measures",
+						"component"
+					],
+					"query": [
+						{
+							"key": "metricKeys",
+							"value": "ncloc,complexity,violations,coverage"
+						},
+						{
+							"key": "component",
+							"value": "basic-maths"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9000/api/measures/component?metricKeys=ncloc,complexity,violations,coverage&component=basic-maths",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:9000/api/measures/component?metricKeys=ncloc,complexity,violations,coverage&component=basic-maths",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"measures",
+						"component"
+					],
+					"query": [
+						{
+							"key": "metricKeys",
+							"value": "ncloc,complexity,violations,coverage"
+						},
+						{
+							"key": "component",
+							"value": "basic-maths"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
